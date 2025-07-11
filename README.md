@@ -47,6 +47,7 @@ package.domain = org.sbu.jobapp
 requirements = python3,kivy
 source.include_exts = py,kv
 orientation = portrait
+source.url = https://github.com/Kenneth-0-byte/job_app_assistant_kivy.git
 ```
 
 ### 4. Build APK
@@ -56,6 +57,13 @@ buildozer -v android debug
 
 ### 5. Install on Device
 Copy the APK from the `bin/` folder to your Android phone and install.
+
+---
+
+## 📦 Source Code
+
+Explore the full code and contribute on GitHub:  
+🔗 [Job App Assistant Repository](https://github.com/Kenneth-0-byte/job_app_assistant_kivy.git)
 
 ---
 
@@ -70,4 +78,3 @@ Copy the APK from the `bin/` folder to your Android phone and install.
 
 ## 👤 Developer
 Created by Sibusiso Kenneth (SBU)
-
