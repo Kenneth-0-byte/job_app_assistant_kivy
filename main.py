@@ -13,11 +13,11 @@ class JobAppForm(BoxLayout):
 Dear {recipient},
 
 I am writing to express my interest in the {position} position at {company}.
-With my background in {skills}, I believe I can add value to your team.
+With my background in {skills}, I believe I can add value to your team/company.
 
 Sincerely,
 Sibusiso Kenneth
-kenneth12.sk@gmail.com | 072 560 6940
+kenneth12.sk@gmail.com | 076 398 9506
         """.strip()
 
         self.ids.output.text = letter
