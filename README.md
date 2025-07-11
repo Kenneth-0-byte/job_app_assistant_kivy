@@ -1,4 +1,3 @@
-
 # 📱 Job Application Assistant (Kivy Android App)
 
 A simple Android mobile application built with Python and Kivy to help users generate customized job application cover letters.
@@ -61,9 +60,9 @@ Copy the APK from the `bin/` folder to your Android phone and install.
 ---
 
 ## 📦 Source Code
+Explore the full code and contribute on GitHub:
 
-Explore the full code and contribute on GitHub:  
-🔗 [Job App Assistant Repository](https://github.com/Kenneth-0-byte/job_app_assistant_kivy.git)
+[Job App Assistant Repository](https://github.com/Kenneth-0-byte/job_app_assistant_kivy)
 
 ---
 
