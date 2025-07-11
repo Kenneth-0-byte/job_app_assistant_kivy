@@ -1,0 +1,35 @@
+<JobAppForm>:
+    orientation: "vertical"
+    padding: 10
+    spacing: 10
+
+    TextInput:
+        id: recipient
+        hint_text: "Recipient's Name"
+
+    TextInput:
+        id: company
+        hint_text: "Company Name"
+
+    TextInput:
+        id: position
+        hint_text: "Position Title"
+
+    TextInput:
+        id: skills
+        hint_text: "Key Skills/Experience"
+
+    Button:
+        text: "Generate Cover Letter"
+        on_press: root.generate_letter()
+
+    ScrollView:
+        size_hint_y: 0.5
+        do_scroll_x: False
+
+        Label:
+            id: output
+            text: ""
+            text_size: self.width, None
+            size_hint_y: None
+            height: self.texture_size[1]
